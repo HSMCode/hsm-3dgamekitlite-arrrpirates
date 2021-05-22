@@ -6,15 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Templates/MyFirstBlockout.unity
-    guid: f88e06c3cd66840aeb9b2b50e570f9e9
+    path: Assets/Scenes/Start.unity
+    guid: 44480a4101fff406b8700562ef397d46
   - enabled: 1
-    path: Assets/LevelA.unity
+    path: Assets/Scenes/LevelA.unity
     guid: 8854cf714bb4446a0be77e64e9c9665a
   - enabled: 1
-    path: Assets/LevelB.unity
+    path: Assets/Scenes/LevelB.unity
     guid: df3ad2332029d4d8e9f565f3cad7ca99
   - enabled: 1
-    path: Assets/LevelC.unity
+    path: Assets/Scenes/LevelC.unity
     guid: 6cfd9588803d840309d9143c5f3b71cc
+  - enabled: 1
+    path: Assets/Scenes/LevelD.unity
+    guid: 91d10dfb8fdd0455ab02dbfb29946ab5
   m_configObjects: {}
