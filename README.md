@@ -24,5 +24,9 @@ To avoid merge conflicts, please only update your teams scene at a time!
 If Merge Conflicts happen, these need to be resolved, check which files are conflicted, you can resolve merge conflicts. 
 BUT either your changes or the other parties changes will be overwritten! 
 If you have talked to the other party involved, and overwritting the changes are ok/possibile, do it.
-IF NOT notify me on Mattermost. 
+IF NOT notify Linda on **Mattermost**. 
 
+## Credit
+This project includes:
+* Unity 3D Game Kit Lite: https://learn.unity.com/project/3d-game-kit-lite?uv=2020.2
+* Synthy Studio's Polygon Asset Pack "Pirates" 
