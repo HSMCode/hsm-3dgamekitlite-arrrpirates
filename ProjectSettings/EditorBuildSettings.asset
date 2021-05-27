@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/LevelB.unity
     guid: df3ad2332029d4d8e9f565f3cad7ca99
   - enabled: 1
-    path: Assets/Scenes/LevelC.unity
+    path: Assets/Scenes/LevelC - Jump.unity
     guid: 6cfd9588803d840309d9143c5f3b71cc
   - enabled: 1
     path: Assets/Scenes/LevelD.unity
