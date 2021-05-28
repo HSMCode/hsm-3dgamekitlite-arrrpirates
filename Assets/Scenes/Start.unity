@@ -25444,7 +25444,7 @@ PrefabInstance:
     - target: {fileID: 1389219134690789418, guid: d0b0cc9ec3a8844088acd8134d4ce45f,
         type: 3}
       propertyPath: newSceneName
-      value: Start2
+      value: LevelA
       objectReference: {fileID: 0}
     - target: {fileID: 1389219134690789418, guid: d0b0cc9ec3a8844088acd8134d4ce45f,
         type: 3}
@@ -25701,7 +25701,7 @@ PrefabInstance:
     - target: {fileID: 4711574315218932180, guid: 21379e184df5e44b6a436763cb86840e,
         type: 3}
       propertyPath: newSceneName
-      value: Start2
+      value: LevelA
       objectReference: {fileID: 0}
     - target: {fileID: 4711574315218932180, guid: 21379e184df5e44b6a436763cb86840e,
         type: 3}
