@@ -1,6 +1,7 @@
 using UnityEngine;
 using Gamekit3D.Message;
 using System.Collections;
+using Gamekit3D.GameCommands;
 using UnityEngine.XR.WSA;
 
 namespace Gamekit3D
@@ -20,7 +21,25 @@ namespace Gamekit3D
         public float minTurnSpeed = 400f;         // How fast Ellen turns when moving at maximum speed.
         public float maxTurnSpeed = 1200f;        // How fast Ellen turns when stationary.
         public float idleTimeout = 5f;            // How long before Ellen starts considering random idles.
-        public bool canAttack;                    // Whether or not Ellen can swing her staff.
+        public bool canAttack = true;             // Whether or not Ellen can swing her staff.
+
+        // additional variables for pirate captain
+        public float maxForwardSpeedC = 12f;        // How fast Ellen can run.
+        public float gravityC = 30f;               // How fast Ellen accelerates downwards when airborne.
+        public float jumpSpeedC = 20f;             // How fast Ellen takes off when jumping.
+        public float minTurnSpeedC = 800f;         // How fast Ellen turns when moving at maximum speed.
+        public float maxTurnSpeedC = 1000f;        // How fast Ellen turns when stationary.
+        public float idleTimeoutC = 10f;            // How long before Ellen starts considering random idles.
+        public bool canAttackC = false;            // Whether or not Ellen can swing her staff.
+        
+        // additional variables for pirate ellen 
+        public float maxForwardSpeedE;             // How fast Ellen can run.
+        public float gravityE;                      // How fast Ellen accelerates downwards when airborne.
+        public float jumpSpeedE;                    // How fast Ellen takes off when jumping.
+        public float minTurnSpeedE;                 // How fast Ellen turns when moving at maximum speed.
+        public float maxTurnSpeedE;                 // How fast Ellen turns when stationary.
+        public float idleTimeoutE;                  // How long before Ellen starts considering random idles.
+        public bool canAttackE = true;            // Whether or not Ellen can swing her staff.
 
         public CameraSettings cameraSettings;            // Reference used to determine the camera's direction.
         public MeleeWeapon meleeWeapon;                  // Reference used to (de)activate the staff when attacking. 
@@ -71,7 +90,6 @@ namespace Gamekit3D
         const float k_GroundDeceleration = 25f;
 
         // Parameters
-
         readonly int m_HashAirborneVerticalSpeed = Animator.StringToHash("AirborneVerticalSpeed");
         readonly int m_HashForwardSpeed = Animator.StringToHash("ForwardSpeed");
         readonly int m_HashAngleDeltaRad = Animator.StringToHash("AngleDeltaRad");
@@ -138,7 +156,7 @@ namespace Gamekit3D
                     cameraSettings.follow = transform.Find("HeadTarget");
             }
         }
-
+        
         // Called automatically by Unity when the script first exists in the scene.
         void Awake()
         {
@@ -678,5 +696,41 @@ namespace Gamekit3D
             m_Respawning = true;
             m_Damageable.isInvulnerable = true;
         }
+
+
+        public void DoToggleCharacterControllerSettings(int pirates)
+        {
+            if(pirates == 2)
+            {
+                maxForwardSpeed = maxForwardSpeedC;
+                gravity = gravityC;
+                jumpSpeed = jumpSpeedC;
+                minTurnSpeed = minTurnSpeedC;
+                maxTurnSpeed = maxTurnSpeedC;
+                idleTimeout = idleTimeoutC;
+                canAttack = canAttackC;
+
+                Debug.Log(gameObject.name + " Captain variables are set.");
+                
+                //ToggleGameObjectActive.
+            }
+            else if(pirates == 1)
+            {
+                maxForwardSpeed = maxForwardSpeedE;
+                gravity = gravityE;
+                jumpSpeed = jumpSpeedE;
+                minTurnSpeed = minTurnSpeedE;
+                maxTurnSpeed = maxTurnSpeedE;
+                idleTimeout = idleTimeoutE;
+                canAttack = canAttackE;
+
+                Debug.Log(gameObject.name + " Ellen variables are set.");
+            }
+            else
+            {
+                Debug.Log(gameObject.name + " i reached 0.");
+            }
+        }
+        
     }
 }
