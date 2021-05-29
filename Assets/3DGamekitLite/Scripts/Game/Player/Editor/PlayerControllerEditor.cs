@@ -26,6 +26,7 @@ namespace Gamekit3D
         SerializedProperty m_MaxTurnSpeedEProp;
         SerializedProperty m_IdleTimeoutEProp;
         SerializedProperty m_CanAttackEProp;
+        SerializedProperty m_characterPirateEllenProp;
 
         SerializedProperty m_MaxForwardSpeedCProp;
         SerializedProperty m_GravityCProp;
@@ -34,6 +35,7 @@ namespace Gamekit3D
         SerializedProperty m_MaxTurnSpeedCProp;
         SerializedProperty m_IdleTimeoutCProp;
         SerializedProperty m_CanAttackCProp;
+        SerializedProperty m_characterPirateCaptainProp;
 
         SerializedProperty m_MeleeWeaponProp;
         SerializedProperty m_CameraSettingsProp;
@@ -60,14 +62,16 @@ namespace Gamekit3D
         GUIContent m_TurnSpeedEContent = new GUIContent("Turn Speed E", "How fast Ellen turns.  This varies depending on how fast she is moving.  When stationary the maximum will be used and when running at Max Forward Speed the minimum will be used.");
         GUIContent m_IdleTimeoutEContent = new GUIContent("Idle Timeout E", "How many seconds before Ellen starts considering random Idle poses.");
         GUIContent m_CanAttackEContent = new GUIContent("Can Attack E", "Whether or not Ellen can attack with her staff.  This can be set externally.");
-
+        GUIContent m_characterPirateEllenContent = new GUIContent("Pirate Ellen", "Set mesh for Pirate Ellen.");
+        
         GUIContent m_MaxForwardSpeedCContent = new GUIContent("Max Forward Speed C", "How fast PIRATE CAPTAIN can run.");
         GUIContent m_GravityCContent = new GUIContent("Gravity C", "How fast Ellen falls when in the air.");
         GUIContent m_JumpSpeedCContent = new GUIContent("Jump Speed C", "How fast Ellen takes off when jumping.");
         GUIContent m_TurnSpeedCContent = new GUIContent("Turn Speed C", "How fast Ellen turns.  This varies depending on how fast she is moving.  When stationary the maximum will be used and when running at Max Forward Speed the minimum will be used.");
         GUIContent m_IdleTimeoutCContent = new GUIContent("Idle Timeout C", "How many seconds before Ellen starts considering random Idle poses.");
         GUIContent m_CanAttackCContent = new GUIContent("Can Attack C", "Whether or not Ellen can attack with her staff.  This can be set externally.");
-
+        GUIContent m_characterPirateCaptainContent = new GUIContent("Pirate Captain", "Set mesh for Pirate Captain.");
+        
         GUIContent m_MeleeWeaponContent = new GUIContent("Melee Weapon", "Used for damaging enemies when Ellen swings her staff.");
         GUIContent m_CameraSettingsContent = new GUIContent("Camera Settings", "Used to get the rotation of the current camera so that Ellen faces the correct direction.  Note: This is the only reference which is not part of the Ellen prefab.  It should automatically be set to the Camera Settings script of the CameraRig gameobject when the Prefab is instantiated.");
         GUIContent m_FootstepPlayerContent = new GUIContent("Footstep Random Audio Player", "Used to play a random sound when Ellen takes a step.");
@@ -97,6 +101,7 @@ namespace Gamekit3D
             m_MaxTurnSpeedEProp = serializedObject.FindProperty("maxTurnSpeedE");
             m_IdleTimeoutEProp = serializedObject.FindProperty("idleTimeoutE");
             m_CanAttackEProp = serializedObject.FindProperty("canAttackE");
+            m_characterPirateEllenProp = serializedObject.FindProperty("characterPirateEllen");
 
             m_MaxForwardSpeedCProp = serializedObject.FindProperty("maxForwardSpeedC");
             m_GravityCProp = serializedObject.FindProperty("gravityC");
@@ -105,6 +110,7 @@ namespace Gamekit3D
             m_MaxTurnSpeedCProp = serializedObject.FindProperty("maxTurnSpeedC");
             m_IdleTimeoutCProp = serializedObject.FindProperty("idleTimeoutC");
             m_CanAttackCProp = serializedObject.FindProperty("canAttackC");
+            m_characterPirateCaptainProp = serializedObject.FindProperty("characterPirateCaptain");
             
             m_MeleeWeaponProp = serializedObject.FindProperty("meleeWeapon");
             m_CameraSettingsProp = serializedObject.FindProperty("cameraSettings");
@@ -150,6 +156,7 @@ namespace Gamekit3D
 
             EditorGUILayout.PropertyField(m_IdleTimeoutEProp, m_IdleTimeoutEContent);
             EditorGUILayout.PropertyField(m_CanAttackEProp, m_CanAttackEContent);
+            EditorGUILayout.PropertyField(m_characterPirateEllenProp, m_characterPirateEllenContent);
             
             EditorGUILayout.Space();            
             
@@ -163,6 +170,7 @@ namespace Gamekit3D
 
             EditorGUILayout.PropertyField(m_IdleTimeoutCProp, m_IdleTimeoutCContent);
             EditorGUILayout.PropertyField(m_CanAttackCProp, m_CanAttackCContent);
+            EditorGUILayout.PropertyField(m_characterPirateCaptainProp, m_characterPirateCaptainContent);
             
             EditorGUILayout.Space();
             

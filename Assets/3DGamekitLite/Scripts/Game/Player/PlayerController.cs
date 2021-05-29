@@ -15,31 +15,33 @@ namespace Gamekit3D
 
         public bool respawning { get { return m_Respawning; } }
 
-        public float maxForwardSpeed = 8f;        // How fast Ellen can run.
+        public float maxForwardSpeed = 6f;        // How fast Ellen can run.
         public float gravity = 20f;               // How fast Ellen accelerates downwards when airborne.
         public float jumpSpeed = 10f;             // How fast Ellen takes off when jumping.
-        public float minTurnSpeed = 400f;         // How fast Ellen turns when moving at maximum speed.
-        public float maxTurnSpeed = 1200f;        // How fast Ellen turns when stationary.
-        public float idleTimeout = 5f;            // How long before Ellen starts considering random idles.
+        public float minTurnSpeed = 800f;         // How fast Ellen turns when moving at maximum speed.
+        public float maxTurnSpeed = 1000f;        // How fast Ellen turns when stationary.
+        public float idleTimeout = 15f;            // How long before Ellen starts considering random idles.
         public bool canAttack = true;             // Whether or not Ellen can swing her staff.
 
         // additional variables for pirate captain
-        public float maxForwardSpeedC = 12f;        // How fast Ellen can run.
+        public float maxForwardSpeedC = 4f;        // How fast Ellen can run.
         public float gravityC = 30f;               // How fast Ellen accelerates downwards when airborne.
-        public float jumpSpeedC = 20f;             // How fast Ellen takes off when jumping.
+        public float jumpSpeedC = 5f;             // How fast Ellen takes off when jumping.
         public float minTurnSpeedC = 800f;         // How fast Ellen turns when moving at maximum speed.
-        public float maxTurnSpeedC = 1000f;        // How fast Ellen turns when stationary.
-        public float idleTimeoutC = 10f;            // How long before Ellen starts considering random idles.
+        public float maxTurnSpeedC = 1500f;        // How fast Ellen turns when stationary.
+        public float idleTimeoutC = 15f;            // How long before Ellen starts considering random idles.
         public bool canAttackC = false;            // Whether or not Ellen can swing her staff.
+        public GameObject characterPirateCaptain;
         
         // additional variables for pirate ellen 
-        public float maxForwardSpeedE;             // How fast Ellen can run.
-        public float gravityE;                      // How fast Ellen accelerates downwards when airborne.
-        public float jumpSpeedE;                    // How fast Ellen takes off when jumping.
-        public float minTurnSpeedE;                 // How fast Ellen turns when moving at maximum speed.
-        public float maxTurnSpeedE;                 // How fast Ellen turns when stationary.
-        public float idleTimeoutE;                  // How long before Ellen starts considering random idles.
+        public float maxForwardSpeedE = 6f;             // How fast Ellen can run.
+        public float gravityE = 20f;                      // How fast Ellen accelerates downwards when airborne.
+        public float jumpSpeedE = 10f;                    // How fast Ellen takes off when jumping.
+        public float minTurnSpeedE = 800f;                 // How fast Ellen turns when moving at maximum speed.
+        public float maxTurnSpeedE = 1000f;                 // How fast Ellen turns when stationary.
+        public float idleTimeoutE = 15f;                  // How long before Ellen starts considering random idles.
         public bool canAttackE = true;            // Whether or not Ellen can swing her staff.
+        public GameObject characterPirateEllen;
 
         public CameraSettings cameraSettings;            // Reference used to determine the camera's direction.
         public MeleeWeapon meleeWeapon;                  // Reference used to (de)activate the staff when attacking. 
@@ -710,6 +712,9 @@ namespace Gamekit3D
                 idleTimeout = idleTimeoutC;
                 canAttack = canAttackC;
 
+                characterPirateCaptain.SetActive(true);
+                characterPirateEllen.SetActive(false);
+
                 Debug.Log(gameObject.name + " Captain variables are set.");
                 
                 //ToggleGameObjectActive.
@@ -723,6 +728,9 @@ namespace Gamekit3D
                 maxTurnSpeed = maxTurnSpeedE;
                 idleTimeout = idleTimeoutE;
                 canAttack = canAttackE;
+                
+                characterPirateCaptain.SetActive(false);
+                characterPirateEllen.SetActive(true);
 
                 Debug.Log(gameObject.name + " Ellen variables are set.");
             }
