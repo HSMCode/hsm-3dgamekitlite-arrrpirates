@@ -12352,27 +12352,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: faa8b67e83b73fb4ba6b6a9b2482a664, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxForwardSpeed: 8
+  maxForwardSpeed: 6
   gravity: 20
   jumpSpeed: 10
-  minTurnSpeed: 200
-  maxTurnSpeed: 800
-  idleTimeout: 10
+  minTurnSpeed: 869
+  maxTurnSpeed: 1000
+  idleTimeout: 15
   canAttack: 1
-  maxForwardSpeedC: 12
+  maxForwardSpeedC: 4
   gravityC: 30
-  jumpSpeedC: 20
-  minTurnSpeedC: 400
-  maxTurnSpeedC: 700
+  jumpSpeedC: 5
+  minTurnSpeedC: 869
+  maxTurnSpeedC: 1500
   idleTimeoutC: 15
   canAttackC: 0
-  maxForwardSpeedE: 8
+  characterPirateCaptain: {fileID: 6801335850622500556}
+  maxForwardSpeedE: 6
   gravityE: 20
   jumpSpeedE: 10
-  minTurnSpeedE: 200
-  maxTurnSpeedE: 800
-  idleTimeoutE: 10
+  minTurnSpeedE: 869
+  maxTurnSpeedE: 1000
+  idleTimeoutE: 15
   canAttackE: 1
+  characterPirateEllen: {fileID: 6801335850622316976}
   cameraSettings: {fileID: 0}
   meleeWeapon: {fileID: 1558114146309737605}
   footstepPlayer: {fileID: 1557332946825843583}
@@ -13238,7 +13240,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Character_Female_Pirate_01
       objectReference: {fileID: 0}
+    - target: {fileID: 115272, guid: 9f907d6996365d14f98f919ae28e1e7f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 136624, guid: 9f907d6996365d14f98f919ae28e1e7f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 167220, guid: 9f907d6996365d14f98f919ae28e1e7f, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -13364,6 +13374,18 @@ PrefabInstance:
 --- !u!4 &6801335850622645448 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 493644, guid: 9f907d6996365d14f98f919ae28e1e7f,
+    type: 3}
+  m_PrefabInstance: {fileID: 6801335850622418052}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6801335850622500556 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 115272, guid: 9f907d6996365d14f98f919ae28e1e7f,
+    type: 3}
+  m_PrefabInstance: {fileID: 6801335850622418052}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6801335850622316976 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 167220, guid: 9f907d6996365d14f98f919ae28e1e7f,
     type: 3}
   m_PrefabInstance: {fileID: 6801335850622418052}
   m_PrefabAsset: {fileID: 0}
