@@ -13,6 +13,11 @@ namespace Gamekit3D
         protected static PlayerController s_Instance;
         public static PlayerController instance { get { return s_Instance; } }
 
+        public InventoryController inventoryController
+        {
+            get { return m_InventoryController; }
+        }
+        
         public bool respawning { get { return m_Respawning; } }
 
         public float maxForwardSpeed = 6f;        // How fast Ellen can run.
@@ -79,6 +84,7 @@ namespace Gamekit3D
         protected Checkpoint m_CurrentCheckpoint;      // Reference used to reset Ellen to the correct position on respawn.
         protected bool m_Respawning;                   // Whether Ellen is currently respawning.
         protected float m_IdleTimer;                   // Used to count up to Ellen considering a random idle.
+        protected InventoryController m_InventoryController;
 
         // These constants are used to ensure Ellen moves and behaves properly.
         // It is advised you don't change them without fully understanding what they do in code.
@@ -167,6 +173,8 @@ namespace Gamekit3D
             m_CharCtrl = GetComponent<CharacterController>();
 
             meleeWeapon.SetOwner(gameObject);
+            
+            m_InventoryController = GetComponent<InventoryController>();
 
             s_Instance = this;
         }
@@ -698,8 +706,8 @@ namespace Gamekit3D
             m_Respawning = true;
             m_Damageable.isInvulnerable = true;
         }
-
-
+        
+        
         public void DoToggleCharacterControllerSettings(int pirates)
         {
             if(pirates == 2)

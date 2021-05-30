@@ -25876,13 +25876,53 @@ PrefabInstance:
       objectReference: {fileID: 782913518}
     - target: {fileID: 2988657507023851331, guid: e359069e0a0fe4243b81c111347ed0cb,
         type: 3}
+      propertyPath: OnReachDestination.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2988657507023851331, guid: e359069e0a0fe4243b81c111347ed0cb,
+        type: 3}
+      propertyPath: OnReachDestination.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2988657507023851331, guid: e359069e0a0fe4243b81c111347ed0cb,
+        type: 3}
       propertyPath: OnReachDestination.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 782913515}
     - target: {fileID: 2988657507023851331, guid: e359069e0a0fe4243b81c111347ed0cb,
         type: 3}
+      propertyPath: OnReachDestination.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 782913519}
+    - target: {fileID: 2988657507023851331, guid: e359069e0a0fe4243b81c111347ed0cb,
+        type: 3}
+      propertyPath: OnReachDestination.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2988657507023851331, guid: e359069e0a0fe4243b81c111347ed0cb,
+        type: 3}
       propertyPath: OnReachDestination.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: DoToggleCharacterControllerSettings
+      objectReference: {fileID: 0}
+    - target: {fileID: 2988657507023851331, guid: e359069e0a0fe4243b81c111347ed0cb,
+        type: 3}
+      propertyPath: OnReachDestination.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: Clear
+      objectReference: {fileID: 0}
+    - target: {fileID: 2988657507023851331, guid: e359069e0a0fe4243b81c111347ed0cb,
+        type: 3}
+      propertyPath: OnReachDestination.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: Gamekit3D.InventoryController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2988657507023851331, guid: e359069e0a0fe4243b81c111347ed0cb,
+        type: 3}
+      propertyPath: OnReachDestination.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_IntArgument
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2988657507023851331, guid: e359069e0a0fe4243b81c111347ed0cb,
+        type: 3}
+      propertyPath: OnReachDestination.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e359069e0a0fe4243b81c111347ed0cb, type: 3}
@@ -27259,6 +27299,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4717309604518432836, guid: 40a5ab95cc62343beb86f5febcdc0ce4,
+        type: 3}
+      propertyPath: dataSettings.dataTag
+      value: inventory
+      objectReference: {fileID: 0}
     - target: {fileID: 4717309604518432837, guid: 40a5ab95cc62343beb86f5febcdc0ce4,
         type: 3}
       propertyPath: m_Name
@@ -27424,6 +27469,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: KeyItem2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7130401415877493381, guid: c5377693d39384ce98964546775f048f,
+        type: 3}
+      propertyPath: dataSettings.dataTag
+      value: inventory
       objectReference: {fileID: 0}
     - target: {fileID: 7130401415877493383, guid: c5377693d39384ce98964546775f048f,
         type: 3}
@@ -27699,6 +27749,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: KeyItem1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7977047876782605363, guid: 1eec852d9cbd047c4902d7631f7ed5e7,
+        type: 3}
+      propertyPath: dataSettings.dataTag
+      value: inventory
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1eec852d9cbd047c4902d7631f7ed5e7, type: 3}

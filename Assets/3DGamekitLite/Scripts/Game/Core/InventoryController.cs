@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -43,36 +44,36 @@ namespace Gamekit3D
 
         public InventoryEvent[] inventoryEvents;
 
-        HashSet<string> inventoryItems = new HashSet<string>();
+        HashSet<string> m_inventoryItems = new HashSet<string>();
 
         public void AddItem(string key)
         {
-            if (!inventoryItems.Contains(key))
+            if (!m_inventoryItems.Contains(key))
             {
+                m_inventoryItems.Add(key);
                 var ev = GetInventoryEvent(key);
                 if (ev != null) ev.OnAdd.Invoke();
-                inventoryItems.Add(key);
             }
         }
 
         public void RemoveItem(string key)
         {
-            if (inventoryItems.Contains(key))
+            if (m_inventoryItems.Contains(key))
             {
                 var ev = GetInventoryEvent(key);
                 if (ev != null) ev.OnRemove.Invoke();
-                inventoryItems.Remove(key);
+                m_inventoryItems.Remove(key);
             }
         }
 
         public bool HasItem(string key)
         {
-            return inventoryItems.Contains(key);
+            return m_inventoryItems.Contains(key);
         }
 
         public void Clear()
         {
-            inventoryItems.Clear();
+            m_inventoryItems.Clear();
         }
 
         InventoryEvent GetInventoryEvent(string key)
@@ -83,7 +84,6 @@ namespace Gamekit3D
             }
             return null;
         }
-
     }
 
 }
