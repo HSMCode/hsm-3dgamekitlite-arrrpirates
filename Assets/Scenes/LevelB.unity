@@ -636,7 +636,7 @@ GameObject:
   - component: {fileID: 58266042}
   - component: {fileID: 58266044}
   - component: {fileID: 58266043}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Cylinder (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -763,7 +763,7 @@ GameObject:
   - component: {fileID: 81810505}
   - component: {fileID: 81810507}
   - component: {fileID: 81810506}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -846,6 +846,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Item_Bottle_02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 192770, guid: b0af57c3e75b4d4409f5e6c75d13179a, type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 455110, guid: b0af57c3e75b4d4409f5e6c75d13179a, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -907,7 +911,8 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 64399663834863972, guid: b0af57c3e75b4d4409f5e6c75d13179a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b0af57c3e75b4d4409f5e6c75d13179a, type: 3}
 --- !u!1 &94891855 stripped
 GameObject:
@@ -949,6 +954,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   inventoryChecks: []
+--- !u!65 &94891857
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 94891855}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3, y: 0.3, z: 0.3}
+  m_Center: {x: 0, y: 0.12665373, z: 0.00009435415}
 --- !u!1001 &95287899
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -959,6 +977,10 @@ PrefabInstance:
     - target: {fileID: 179546, guid: 64ddb092e43004748953d504e21df76e, type: 3}
       propertyPath: m_Name
       value: SM_Item_Bottle_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 179546, guid: 64ddb092e43004748953d504e21df76e, type: 3}
+      propertyPath: m_Layer
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 461728, guid: 64ddb092e43004748953d504e21df76e, type: 3}
       propertyPath: m_RootOrder
@@ -1021,7 +1043,8 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 64678322930328598, guid: 64ddb092e43004748953d504e21df76e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 64ddb092e43004748953d504e21df76e, type: 3}
 --- !u!1 &95287900 stripped
 GameObject:
@@ -1063,6 +1086,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   inventoryChecks: []
+--- !u!65 &95287902
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95287900}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3, y: 0.3, z: 0.3}
+  m_Center: {x: 0, y: 0.1660595, z: 0}
 --- !u!1001 &106488331
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1119,6 +1155,10 @@ PrefabInstance:
     - target: {fileID: 159408, guid: bddd1f0c0f88b2347a315edd5b2ebccd, type: 3}
       propertyPath: m_Name
       value: SM_Item_Skull_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 159408, guid: bddd1f0c0f88b2347a315edd5b2ebccd, type: 3}
+      propertyPath: m_Layer
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 465432, guid: bddd1f0c0f88b2347a315edd5b2ebccd, type: 3}
       propertyPath: m_RootOrder
@@ -1181,7 +1221,8 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 64147020510574888, guid: bddd1f0c0f88b2347a315edd5b2ebccd, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bddd1f0c0f88b2347a315edd5b2ebccd, type: 3}
 --- !u!1 &120740017 stripped
 GameObject:
@@ -1223,6 +1264,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   inventoryChecks: []
+--- !u!65 &120740019
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120740017}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.4, y: 0.4, z: 0.4}
+  m_Center: {x: -0.0000000021782398, y: 0.1280899, z: -0.036544804}
 --- !u!1001 &125992154
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1307,6 +1361,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Item_Bottle_02
       objectReference: {fileID: 0}
+    - target: {fileID: 192770, guid: b0af57c3e75b4d4409f5e6c75d13179a, type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 455110, guid: b0af57c3e75b4d4409f5e6c75d13179a, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -1368,7 +1426,8 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 64399663834863972, guid: b0af57c3e75b4d4409f5e6c75d13179a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b0af57c3e75b4d4409f5e6c75d13179a, type: 3}
 --- !u!1 &131261075 stripped
 GameObject:
@@ -1410,6 +1469,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   inventoryChecks: []
+--- !u!65 &131261077
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131261075}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3, y: 0.3, z: 0.3}
+  m_Center: {x: 0, y: 0.12665373, z: 0.00009435415}
 --- !u!1001 &136120468
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1559,6 +1631,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Item_Coins_02
       objectReference: {fileID: 0}
+    - target: {fileID: 161422, guid: 69af1ce6715b80744a7ffab71c4a40a4, type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 437062, guid: 69af1ce6715b80744a7ffab71c4a40a4, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -1620,7 +1696,8 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 64825859012948524, guid: 69af1ce6715b80744a7ffab71c4a40a4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 69af1ce6715b80744a7ffab71c4a40a4, type: 3}
 --- !u!1 &155500294 stripped
 GameObject:
@@ -1662,6 +1739,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   inventoryChecks: []
+--- !u!65 &155500296
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155500294}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.4, y: 0.4, z: 0.4}
+  m_Center: {x: -0.00000035762793, y: 0.013602614, z: 0.0000002384186}
 --- !u!1 &157977515
 GameObject:
   m_ObjectHideFlags: 0
@@ -1719,7 +1809,7 @@ PrefabInstance:
     - target: {fileID: 1443347405330403739, guid: fad2f6771148e426ca12d523b030912f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 130
+      value: 129
       objectReference: {fileID: 0}
     - target: {fileID: 1443347405330403739, guid: fad2f6771148e426ca12d523b030912f,
         type: 3}
@@ -1885,35 +1975,35 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4405054866690174, guid: 1fac0dae54de3224181696b709bb4d66, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 22.840012
       objectReference: {fileID: 0}
     - target: {fileID: 4405054866690174, guid: 1fac0dae54de3224181696b709bb4d66, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.8800001
+      value: -6.9929976
       objectReference: {fileID: 0}
     - target: {fileID: 4405054866690174, guid: 1fac0dae54de3224181696b709bb4d66, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4
+      value: 62.059998
       objectReference: {fileID: 0}
     - target: {fileID: 4405054866690174, guid: 1fac0dae54de3224181696b709bb4d66, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9869713
+      value: -0.9999198
       objectReference: {fileID: 0}
     - target: {fileID: 4405054866690174, guid: 1fac0dae54de3224181696b709bb4d66, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.03552303
+      value: -0.0126674045
       objectReference: {fileID: 0}
     - target: {fileID: 4405054866690174, guid: 1fac0dae54de3224181696b709bb4d66, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.15682255
+      value: 0.0000003375975
       objectReference: {fileID: 0}
     - target: {fileID: 4405054866690174, guid: 1fac0dae54de3224181696b709bb4d66, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0056976983
+      value: -0.0000000034880006
       objectReference: {fileID: 0}
     - target: {fileID: 4864495072746176, guid: 1fac0dae54de3224181696b709bb4d66, type: 3}
       propertyPath: m_RootOrder
-      value: 131
+      value: 130
       objectReference: {fileID: 0}
     - target: {fileID: 4864495072746176, guid: 1fac0dae54de3224181696b709bb4d66, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3499,6 +3589,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Item_Coins_01
       objectReference: {fileID: 0}
+    - target: {fileID: 174240, guid: 250e937cad8b9074b8464dd802b6dfc4, type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 477998, guid: 250e937cad8b9074b8464dd802b6dfc4, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -3560,7 +3654,8 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 64182800560703388, guid: 250e937cad8b9074b8464dd802b6dfc4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 250e937cad8b9074b8464dd802b6dfc4, type: 3}
 --- !u!1 &229218679 stripped
 GameObject:
@@ -3602,6 +3697,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   inventoryChecks: []
+--- !u!65 &229218681
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229218679}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.4, y: 0.4, z: 0.4}
+  m_Center: {x: 0.0000002384186, y: 0.022214415, z: 0.00000035762793}
 --- !u!1001 &252677057
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3905,7 +4013,7 @@ GameObject:
   - component: {fileID: 277393678}
   - component: {fileID: 277393680}
   - component: {fileID: 277393679}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Cylinder (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4651,6 +4759,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Item_Bottle_03
       objectReference: {fileID: 0}
+    - target: {fileID: 132400, guid: eb2834de9304430498a4187bc75d9c2d, type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 472730, guid: eb2834de9304430498a4187bc75d9c2d, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -4712,7 +4824,8 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 64871153097951974, guid: eb2834de9304430498a4187bc75d9c2d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: eb2834de9304430498a4187bc75d9c2d, type: 3}
 --- !u!1 &487981754 stripped
 GameObject:
@@ -4754,6 +4867,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   inventoryChecks: []
+--- !u!65 &487981756
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487981754}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3, y: 0.3, z: 0.3}
+  m_Center: {x: 0, y: 0.10444364, z: 0.0000833869}
 --- !u!1 &507052872
 GameObject:
   m_ObjectHideFlags: 0
@@ -4765,7 +4891,7 @@ GameObject:
   - component: {fileID: 507052873}
   - component: {fileID: 507052875}
   - component: {fileID: 507052874}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Cube (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4780,7 +4906,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 507052872}
   m_LocalRotation: {x: -0.55700845, y: 0.56881016, z: 0.43559334, w: 0.42006567}
-  m_LocalPosition: {x: 0.00093, y: 0.00335, z: 0.0097}
+  m_LocalPosition: {x: 0.00097, y: 0.00331, z: 0.0109}
   m_LocalScale: {x: 0.019258268, y: 0.014519749, z: 0.00041278353}
   m_Children: []
   m_Father: {fileID: 974700316}
@@ -4975,6 +5101,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Item_Bottle_04
       objectReference: {fileID: 0}
+    - target: {fileID: 131654, guid: ace0bec95f69ee4408881b94beec4447, type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 403682, guid: ace0bec95f69ee4408881b94beec4447, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -5036,7 +5166,8 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 64912386946319346, guid: ace0bec95f69ee4408881b94beec4447, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ace0bec95f69ee4408881b94beec4447, type: 3}
 --- !u!1 &552890985 stripped
 GameObject:
@@ -5078,6 +5209,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   inventoryChecks: []
+--- !u!65 &552890987
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 552890985}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3, y: 0.3, z: 0.3}
+  m_Center: {x: -4.9702464e-12, y: 0.13049819, z: 0.0000833908}
 --- !u!1001 &602029390
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5162,6 +5306,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Item_Skull_Attachment_01
       objectReference: {fileID: 0}
+    - target: {fileID: 111992, guid: 14f031a897e93a2469423fd43652037f, type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 418812, guid: 14f031a897e93a2469423fd43652037f, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -5223,7 +5371,8 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 64277066217191014, guid: 14f031a897e93a2469423fd43652037f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 14f031a897e93a2469423fd43652037f, type: 3}
 --- !u!1 &605749440 stripped
 GameObject:
@@ -5265,6 +5414,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   inventoryChecks: []
+--- !u!65 &605749442
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 605749440}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.4, y: 0.4, z: 0.4}
+  m_Center: {x: 0, y: -0.06376104, z: 0.031299587}
 --- !u!1001 &620525501
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9461,6 +9623,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Item_Bottle_Attachment_01
       objectReference: {fileID: 0}
+    - target: {fileID: 107296, guid: 4318f89cf0c834647a6b517d0203fe4f, type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 431114, guid: 4318f89cf0c834647a6b517d0203fe4f, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -9522,7 +9688,8 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 64176059619937086, guid: 4318f89cf0c834647a6b517d0203fe4f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4318f89cf0c834647a6b517d0203fe4f, type: 3}
 --- !u!1 &641945065 stripped
 GameObject:
@@ -9564,6 +9731,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   inventoryChecks: []
+--- !u!65 &641945067
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641945065}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3, y: 0.3, z: 0.3}
+  m_Center: {x: -0.04869127, y: -0.09139392, z: 0}
 --- !u!1001 &659468204
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9643,7 +9823,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh35072
+  m_Name: pb_Mesh18096
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -10221,7 +10401,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 490084, guid: 4911f67b57e336d49982101e934a4e7f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -144.72598
+      value: -144.99522
       objectReference: {fileID: 0}
     - target: {fileID: 490084, guid: 4911f67b57e336d49982101e934a4e7f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -10229,23 +10409,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 490084, guid: 4911f67b57e336d49982101e934a4e7f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -36.908478
+      value: -36.116604
       objectReference: {fileID: 0}
     - target: {fileID: 490084, guid: 4911f67b57e336d49982101e934a4e7f, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7405514
+      value: 0.6959911
       objectReference: {fileID: 0}
     - target: {fileID: 490084, guid: 4911f67b57e336d49982101e934a4e7f, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.13589092
+      value: 0.21000297
       objectReference: {fileID: 0}
     - target: {fileID: 490084, guid: 4911f67b57e336d49982101e934a4e7f, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.29938436
+      value: 0.39197382
       objectReference: {fileID: 0}
     - target: {fileID: 490084, guid: 4911f67b57e336d49982101e934a4e7f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.58607715
+      value: 0.56378335
       objectReference: {fileID: 0}
     - target: {fileID: 490084, guid: 4911f67b57e336d49982101e934a4e7f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -10253,7 +10433,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 490084, guid: 4911f67b57e336d49982101e934a4e7f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 37.558
+      value: 52.309
       objectReference: {fileID: 0}
     - target: {fileID: 490084, guid: 4911f67b57e336d49982101e934a4e7f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -12324,6 +12504,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Item_Bottle_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 179546, guid: 64ddb092e43004748953d504e21df76e, type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 461728, guid: 64ddb092e43004748953d504e21df76e, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -12385,7 +12569,8 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 64678322930328598, guid: 64ddb092e43004748953d504e21df76e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 64ddb092e43004748953d504e21df76e, type: 3}
 --- !u!1 &1062339869 stripped
 GameObject:
@@ -12427,13 +12612,26 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   inventoryChecks: []
+--- !u!65 &1062339871
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1062339869}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3, y: 0.3, z: 0.3}
+  m_Center: {x: 0.0000000024744793, y: 0.16605763, z: 0.000007644241}
 --- !u!43 &1072094228
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh34934
+  m_Name: pb_Mesh17944
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -12670,7 +12868,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh34810
+  m_Name: pb_Mesh17790
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -14245,7 +14443,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh34968
+  m_Name: pb_Mesh17986
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -14738,7 +14936,7 @@ GameObject:
   - component: {fileID: 1285102824}
   - component: {fileID: 1285102826}
   - component: {fileID: 1285102825}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Cylinder (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15102,7 +15300,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh34878
+  m_Name: pb_Mesh17882
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -15271,7 +15469,7 @@ GameObject:
   - component: {fileID: 1379299901}
   - component: {fileID: 1379299903}
   - component: {fileID: 1379299902}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Cube (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16646,7 +16844,7 @@ GameObject:
   - component: {fileID: 1424861529}
   - component: {fileID: 1424861531}
   - component: {fileID: 1424861530}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16891,7 +17089,7 @@ GameObject:
   - component: {fileID: 1462447486}
   - component: {fileID: 1462447488}
   - component: {fileID: 1462447487}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Cube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18421,6 +18619,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Item_Bottle_03 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 132400, guid: eb2834de9304430498a4187bc75d9c2d, type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 472730, guid: eb2834de9304430498a4187bc75d9c2d, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -18482,7 +18684,8 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 64871153097951974, guid: eb2834de9304430498a4187bc75d9c2d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: eb2834de9304430498a4187bc75d9c2d, type: 3}
 --- !u!1 &1588687066 stripped
 GameObject:
@@ -18524,6 +18727,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   inventoryChecks: []
+--- !u!65 &1588687068
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588687066}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3, y: 0.3, z: 0.3}
+  m_Center: {x: 0, y: 0.10444364, z: 0.0000833869}
 --- !u!1001 &1609908098
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19153,6 +19369,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Item_Map_Attachment_01
       objectReference: {fileID: 0}
+    - target: {fileID: 108972, guid: 0c45483e24d322143a7a00a5963dd20d, type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 477504, guid: 0c45483e24d322143a7a00a5963dd20d, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -19214,7 +19434,8 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 64307971424447042, guid: 0c45483e24d322143a7a00a5963dd20d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0c45483e24d322143a7a00a5963dd20d, type: 3}
 --- !u!1 &1645118255 stripped
 GameObject:
@@ -19242,7 +19463,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1645118255}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: 
+        m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -19256,6 +19477,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   inventoryChecks: []
+--- !u!65 &1645118257
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645118255}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.4, y: 0.4, z: 0.4}
+  m_Center: {x: 0, y: 0.00000023841856, z: 0.0000038146973}
 --- !u!4 &1655511951 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1448142945926992857, guid: fad2f6771148e426ca12d523b030912f,
@@ -19480,6 +19714,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Item_Compass_01
       objectReference: {fileID: 0}
+    - target: {fileID: 187964, guid: 6d6269edd55ce0e48ba037de57852c02, type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 405632, guid: 6d6269edd55ce0e48ba037de57852c02, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -19541,7 +19779,8 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 64332190352749664, guid: 6d6269edd55ce0e48ba037de57852c02, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 6d6269edd55ce0e48ba037de57852c02, type: 3}
 --- !u!1 &1700427182 stripped
 GameObject:
@@ -19583,6 +19822,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   inventoryChecks: []
+--- !u!65 &1700427184
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700427182}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.4, y: 0.4, z: 0.4}
+  m_Center: {x: -0.00000023841858, y: 0.01492542, z: -0.00000008940697}
 --- !u!1001 &1710994090
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19820,7 +20072,7 @@ GameObject:
   - component: {fileID: 1758395648}
   - component: {fileID: 1758395650}
   - component: {fileID: 1758395649}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Cylinder (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20226,137 +20478,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59c46909f95e9a94fae7eea9a6ddc7d9, type: 3}
---- !u!1001 &1875184844
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 112190, guid: 5ae6393b507e87748b3c2b68d4316830, type: 3}
-      propertyPath: m_Name
-      value: SM_Item_Potion_Attachment_01 (9)
-      objectReference: {fileID: 0}
-    - target: {fileID: 112190, guid: 5ae6393b507e87748b3c2b68d4316830, type: 3}
-      propertyPath: m_Layer
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 434086, guid: 5ae6393b507e87748b3c2b68d4316830, type: 3}
-      propertyPath: m_RootOrder
-      value: 129
-      objectReference: {fileID: 0}
-    - target: {fileID: 434086, guid: 5ae6393b507e87748b3c2b68d4316830, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 3.01599
-      objectReference: {fileID: 0}
-    - target: {fileID: 434086, guid: 5ae6393b507e87748b3c2b68d4316830, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 3.01599
-      objectReference: {fileID: 0}
-    - target: {fileID: 434086, guid: 5ae6393b507e87748b3c2b68d4316830, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 3.01599
-      objectReference: {fileID: 0}
-    - target: {fileID: 434086, guid: 5ae6393b507e87748b3c2b68d4316830, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -154.35
-      objectReference: {fileID: 0}
-    - target: {fileID: 434086, guid: 5ae6393b507e87748b3c2b68d4316830, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.06
-      objectReference: {fileID: 0}
-    - target: {fileID: 434086, guid: 5ae6393b507e87748b3c2b68d4316830, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -36.55
-      objectReference: {fileID: 0}
-    - target: {fileID: 434086, guid: 5ae6393b507e87748b3c2b68d4316830, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.5103784
-      objectReference: {fileID: 0}
-    - target: {fileID: 434086, guid: 5ae6393b507e87748b3c2b68d4316830, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 434086, guid: 5ae6393b507e87748b3c2b68d4316830, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.85994995
-      objectReference: {fileID: 0}
-    - target: {fileID: 434086, guid: 5ae6393b507e87748b3c2b68d4316830, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 434086, guid: 5ae6393b507e87748b3c2b68d4316830, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 434086, guid: 5ae6393b507e87748b3c2b68d4316830, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -157.851
-      objectReference: {fileID: 0}
-    - target: {fileID: 434086, guid: 5ae6393b507e87748b3c2b68d4316830, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 64239806556926846, guid: 5ae6393b507e87748b3c2b68d4316830,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5ae6393b507e87748b3c2b68d4316830, type: 3}
---- !u!1 &1875184845 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 112190, guid: 5ae6393b507e87748b3c2b68d4316830,
-    type: 3}
-  m_PrefabInstance: {fileID: 1875184844}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1875184846
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1875184845}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6e38ccf902f148e69c411da9fcde5cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  layers:
-    serializedVersion: 2
-    m_Bits: 512
-  OnEnter:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1875184845}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  OnExit:
-    m_PersistentCalls:
-      m_Calls: []
-  inventoryChecks: []
---- !u!65 &1875184847
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1875184845}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.40747216, y: 0.614454, z: 0.501054}
-  m_Center: {x: -0.0409998, y: 0.16470176, z: 0.053076416}
 --- !u!1001 &1895713703
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21148,7 +21269,7 @@ GameObject:
   - component: {fileID: 2045385507}
   - component: {fileID: 2045385509}
   - component: {fileID: 2045385508}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21274,6 +21395,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Item_Bottle_01
       objectReference: {fileID: 0}
+    - target: {fileID: 179546, guid: 64ddb092e43004748953d504e21df76e, type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 461728, guid: 64ddb092e43004748953d504e21df76e, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -21335,7 +21460,8 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 64678322930328598, guid: 64ddb092e43004748953d504e21df76e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 64ddb092e43004748953d504e21df76e, type: 3}
 --- !u!1 &2083435206 stripped
 GameObject:
@@ -21377,6 +21503,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   inventoryChecks: []
+--- !u!65 &2083435208
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2083435206}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3, y: 0.3, z: 0.3}
+  m_Center: {x: 0.0000019073486, y: 0.16605954, z: -0.000000474672}
 --- !u!1001 &2095435096
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21814,6 +21953,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Item_Bottle_Attachment_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 107296, guid: 4318f89cf0c834647a6b517d0203fe4f, type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 431114, guid: 4318f89cf0c834647a6b517d0203fe4f, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -21875,7 +22018,8 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 64176059619937086, guid: 4318f89cf0c834647a6b517d0203fe4f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4318f89cf0c834647a6b517d0203fe4f, type: 3}
 --- !u!1 &2136538752 stripped
 GameObject:
@@ -21917,3 +22061,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   inventoryChecks: []
+--- !u!65 &2136538754
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136538752}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3, y: 0.3, z: 0.3}
+  m_Center: {x: -0.048691276, y: -0.091393925, z: 0.0000000030820575}
