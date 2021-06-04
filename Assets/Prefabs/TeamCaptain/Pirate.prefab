@@ -12397,13 +12397,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: faa8b67e83b73fb4ba6b6a9b2482a664, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxForwardSpeed: 4
-  gravity: 30
-  jumpSpeed: 5
+  maxForwardSpeed: 6
+  gravity: 20
+  jumpSpeed: 10
   minTurnSpeed: 869
-  maxTurnSpeed: 1500
+  maxTurnSpeed: 1000
   idleTimeout: 15
-  canAttack: 1
+  canAttack: 0
   maxForwardSpeedC: 4
   gravityC: 30
   jumpSpeedC: 5
@@ -13708,7 +13708,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 115272, guid: 9f907d6996365d14f98f919ae28e1e7f, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 136624, guid: 9f907d6996365d14f98f919ae28e1e7f, type: 3}
       propertyPath: m_IsActive
@@ -13716,7 +13716,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 167220, guid: 9f907d6996365d14f98f919ae28e1e7f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 430128, guid: 9f907d6996365d14f98f919ae28e1e7f, type: 3}
       propertyPath: m_LocalPosition.x
