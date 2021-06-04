@@ -2466,6 +2466,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7130401416073888577, guid: c5377693d39384ce98964546775f048f,
+        type: 3}
+      propertyPath: m_Name
+      value: "schl\xFCsselmesh"
+      objectReference: {fileID: 0}
     - target: {fileID: 7130401416075556367, guid: c5377693d39384ce98964546775f048f,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2475,7 +2480,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: -2432090755550338912, guid: dbbb5e3983da3854685db7bcad1c652b,
+      objectReference: {fileID: -2432090755550338912, guid: 4da9bec0f1c864775b8b156f1e4ce812,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c5377693d39384ce98964546775f048f, type: 3}
@@ -37708,18 +37713,28 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: -2432090755550338912, guid: dbbb5e3983da3854685db7bcad1c652b,
+      objectReference: {fileID: -2432090755550338912, guid: 4da9bec0f1c864775b8b156f1e4ce812,
         type: 3}
     - target: {fileID: 1599934268033195572, guid: fad2f6771148e426ca12d523b030912f,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 974c2859f5440cf488ec2dc4cdb18b7c, type: 2}
+    - target: {fileID: 1599934268035140946, guid: fad2f6771148e426ca12d523b030912f,
+        type: 3}
+      propertyPath: m_Name
+      value: "schl\xFCsselmesh"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445338318273310460, guid: fad2f6771148e426ca12d523b030912f,
+        type: 3}
+      propertyPath: m_Name
+      value: "schl\xFCsselmesh"
+      objectReference: {fileID: 0}
     - target: {fileID: 4445338318274465168, guid: fad2f6771148e426ca12d523b030912f,
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: -2432090755550338912, guid: dbbb5e3983da3854685db7bcad1c652b,
+      objectReference: {fileID: -2432090755550338912, guid: 4da9bec0f1c864775b8b156f1e4ce812,
         type: 3}
     - target: {fileID: 4445338318275526042, guid: fad2f6771148e426ca12d523b030912f,
         type: 3}
@@ -37730,8 +37745,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: -2432090755550338912, guid: dbbb5e3983da3854685db7bcad1c652b,
+      objectReference: {fileID: -2432090755550338912, guid: 4da9bec0f1c864775b8b156f1e4ce812,
         type: 3}
+    - target: {fileID: 5855344898868870971, guid: fad2f6771148e426ca12d523b030912f,
+        type: 3}
+      propertyPath: m_Name
+      value: "schl\xFCsselmesh"
+      objectReference: {fileID: 0}
     - target: {fileID: 6083945453813225673, guid: fad2f6771148e426ca12d523b030912f,
         type: 3}
       propertyPath: inventoryEvents.Array.size
@@ -42303,11 +42323,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7130401416073888577, guid: c5377693d39384ce98964546775f048f,
+        type: 3}
+      propertyPath: m_Name
+      value: "schl\xFCsselmesh"
+      objectReference: {fileID: 0}
     - target: {fileID: 7130401416077106515, guid: c5377693d39384ce98964546775f048f,
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: -2432090755550338912, guid: dbbb5e3983da3854685db7bcad1c652b,
+      objectReference: {fileID: -2432090755550338912, guid: 4da9bec0f1c864775b8b156f1e4ce812,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c5377693d39384ce98964546775f048f, type: 3}
@@ -44363,6 +44388,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7130401416073888577, guid: c5377693d39384ce98964546775f048f,
+        type: 3}
+      propertyPath: m_Name
+      value: "schl\xFCsselmesh"
+      objectReference: {fileID: 0}
     - target: {fileID: 7130401416075556367, guid: c5377693d39384ce98964546775f048f,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -44372,7 +44402,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: -2432090755550338912, guid: dbbb5e3983da3854685db7bcad1c652b,
+      objectReference: {fileID: -2432090755550338912, guid: 4da9bec0f1c864775b8b156f1e4ce812,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c5377693d39384ce98964546775f048f, type: 3}
@@ -48191,7 +48221,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh451840
+  m_Name: pb_Mesh326030
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
