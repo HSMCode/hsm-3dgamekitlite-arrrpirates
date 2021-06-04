@@ -12403,14 +12403,14 @@ MonoBehaviour:
   minTurnSpeed: 869
   maxTurnSpeed: 1000
   idleTimeout: 15
-  canAttack: 1
+  canAttack: 0
   maxForwardSpeedC: 4
   gravityC: 30
   jumpSpeedC: 5
   minTurnSpeedC: 869
   maxTurnSpeedC: 1500
   idleTimeoutC: 15
-  canAttackC: 0
+  canAttackC: 1
   characterPirateCaptain: {fileID: 6801335850622500556}
   maxForwardSpeedE: 6
   gravityE: 20
@@ -12418,7 +12418,7 @@ MonoBehaviour:
   minTurnSpeedE: 869
   maxTurnSpeedE: 1000
   idleTimeoutE: 15
-  canAttackE: 1
+  canAttackE: 0
   characterPirateEllen: {fileID: 6801335850622316976}
   cameraSettings: {fileID: 0}
   meleeWeapon: {fileID: 1558114146309737605}
