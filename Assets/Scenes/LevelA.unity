@@ -8412,6 +8412,49 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 1
           m_CallState: 2
+--- !u!114 &202358978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 202358975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b683af17ce8443da9cdd4306d1e86b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionType: 4
+  isOneShot: 1
+  coolDown: 0
+  startDelay: 0
+  unityEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 920048068}
+        m_TargetAssemblyTypeName: Gamekit3D.InventoryController, Assembly-CSharp
+        m_MethodName: RemoveItem
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Key1
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &202358979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 202358975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67e67574f8bdc4de4a45a7c3adc22797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &202358980 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 489962, guid: 88cbec60c5e072148b9a39c8484c8a34,
@@ -44644,6 +44687,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1742257294}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &920048068 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6083945453813225673, guid: fad2f6771148e426ca12d523b030912f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1742257294}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 920048067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea9dfe00ad5fa4db7857a85c2f5009f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &920048070 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1557836265493117755, guid: fad2f6771148e426ca12d523b030912f,
