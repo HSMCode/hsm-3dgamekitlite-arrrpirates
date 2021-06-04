@@ -1839,9 +1839,29 @@ PrefabInstance:
       objectReference: {fileID: 1464856346}
     - target: {fileID: 2988657507023851331, guid: e359069e0a0fe4243b81c111347ed0cb,
         type: 3}
+      propertyPath: OnReachDestination.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2988657507023851331, guid: e359069e0a0fe4243b81c111347ed0cb,
+        type: 3}
+      propertyPath: OnReachDestination.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2988657507023851331, guid: e359069e0a0fe4243b81c111347ed0cb,
+        type: 3}
       propertyPath: OnReachDestination.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1464856350}
+    - target: {fileID: 2988657507023851331, guid: e359069e0a0fe4243b81c111347ed0cb,
+        type: 3}
+      propertyPath: OnReachDestination.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1464856347}
+    - target: {fileID: 2988657507023851331, guid: e359069e0a0fe4243b81c111347ed0cb,
+        type: 3}
+      propertyPath: OnReachDestination.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2988657507023851331, guid: e359069e0a0fe4243b81c111347ed0cb,
         type: 3}
       propertyPath: OnReachDestination.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -1849,8 +1869,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2988657507023851331, guid: e359069e0a0fe4243b81c111347ed0cb,
         type: 3}
+      propertyPath: OnReachDestination.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: LookAt
+      objectReference: {fileID: 0}
+    - target: {fileID: 2988657507023851331, guid: e359069e0a0fe4243b81c111347ed0cb,
+        type: 3}
+      propertyPath: OnReachDestination.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: UnityEngine.Transform, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2988657507023851331, guid: e359069e0a0fe4243b81c111347ed0cb,
+        type: 3}
       propertyPath: OnReachDestination.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2988657507023851331, guid: e359069e0a0fe4243b81c111347ed0cb,
+        type: 3}
+      propertyPath: OnReachDestination.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_IntArgument
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2988657507023851331, guid: e359069e0a0fe4243b81c111347ed0cb,
+        type: 3}
+      propertyPath: OnReachDestination.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2988657507023851331, guid: e359069e0a0fe4243b81c111347ed0cb,
+        type: 3}
+      propertyPath: OnReachDestination.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Transform, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e359069e0a0fe4243b81c111347ed0cb, type: 3}

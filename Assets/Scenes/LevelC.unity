@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571336, b: 0.3069219, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5020,7 +5020,7 @@ PrefabInstance:
     - target: {fileID: 1389219134690789418, guid: d0b0cc9ec3a8844088acd8134d4ce45f,
         type: 3}
       propertyPath: transitionDestinationTag
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d0b0cc9ec3a8844088acd8134d4ce45f, type: 3}
@@ -30886,6 +30886,16 @@ PrefabInstance:
       propertyPath: transitioningGameObject
       value: 
       objectReference: {fileID: 717115757}
+    - target: {fileID: 2988657507023851331, guid: e359069e0a0fe4243b81c111347ed0cb,
+        type: 3}
+      propertyPath: OnReachDestination.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 917710600}
+    - target: {fileID: 2988657507023851331, guid: e359069e0a0fe4243b81c111347ed0cb,
+        type: 3}
+      propertyPath: OnReachDestination.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DoToggleCharacterControllerSettings
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e359069e0a0fe4243b81c111347ed0cb, type: 3}
 --- !u!1001 &434831812
@@ -37974,6 +37984,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fad2f6771148e426ca12d523b030912f, type: 3}
+--- !u!114 &917710600 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1557836265493117755, guid: fad2f6771148e426ca12d523b030912f,
+    type: 3}
+  m_PrefabInstance: {fileID: 917710599}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717115757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faa8b67e83b73fb4ba6b6a9b2482a664, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &918517056
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62800,10 +62822,25 @@ PrefabInstance:
       propertyPath: transitioningGameObject
       value: 
       objectReference: {fileID: 717115757}
+    - target: {fileID: 2382254380296230530, guid: d30eabc6ed3404966bda7c6d2e993051,
+        type: 3}
+      propertyPath: OnReachDestination.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 917710600}
+    - target: {fileID: 2382254380296230530, guid: d30eabc6ed3404966bda7c6d2e993051,
+        type: 3}
+      propertyPath: OnReachDestination.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DoToggleCharacterControllerSettings
+      objectReference: {fileID: 0}
     - target: {fileID: 3935914811369256633, guid: d30eabc6ed3404966bda7c6d2e993051,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.81
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3935914811369256633, guid: d30eabc6ed3404966bda7c6d2e993051,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d30eabc6ed3404966bda7c6d2e993051, type: 3}

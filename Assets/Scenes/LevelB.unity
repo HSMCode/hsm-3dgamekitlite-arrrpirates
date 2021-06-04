@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 870253756}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571336, b: 0.3069219, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -327,6 +327,16 @@ PrefabInstance:
       propertyPath: transitioningGameObject
       value: 
       objectReference: {fileID: 967877399}
+    - target: {fileID: 2382254380296230530, guid: d30eabc6ed3404966bda7c6d2e993051,
+        type: 3}
+      propertyPath: OnReachDestination.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 174269232}
+    - target: {fileID: 2382254380296230530, guid: d30eabc6ed3404966bda7c6d2e993051,
+        type: 3}
+      propertyPath: OnReachDestination.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DoToggleCharacterControllerSettings
+      objectReference: {fileID: 0}
     - target: {fileID: 3935914811369256633, guid: d30eabc6ed3404966bda7c6d2e993051,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6076,6 +6086,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 174269230}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &174269232 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1557836265493117755, guid: fad2f6771148e426ca12d523b030912f,
+    type: 3}
+  m_PrefabInstance: {fileID: 174269230}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 967877399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faa8b67e83b73fb4ba6b6a9b2482a664, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &174343495
 GameObject:
   m_ObjectHideFlags: 0
@@ -35256,6 +35278,16 @@ PrefabInstance:
       propertyPath: transitioningGameObject
       value: 
       objectReference: {fileID: 967877399}
+    - target: {fileID: 2988657507023851331, guid: e359069e0a0fe4243b81c111347ed0cb,
+        type: 3}
+      propertyPath: OnReachDestination.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 174269232}
+    - target: {fileID: 2988657507023851331, guid: e359069e0a0fe4243b81c111347ed0cb,
+        type: 3}
+      propertyPath: OnReachDestination.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DoToggleCharacterControllerSettings
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e359069e0a0fe4243b81c111347ed0cb, type: 3}
 --- !u!1001 &750318718
