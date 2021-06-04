@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571336, b: 0.3069219, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1620,6 +1620,11 @@ PrefabInstance:
         type: 3}
       propertyPath: inventoryChecks.Array.data[0].OnHasItem.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
       value: Gamekit3D.InventoryController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 699687365609964712, guid: 4e1b373c1bbc4454a875f2aa65add382,
+        type: 3}
+      propertyPath: inventoryChecks.Array.data[0].OnHasItem.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: Key3
       objectReference: {fileID: 0}
     - target: {fileID: 699687365609964712, guid: 4e1b373c1bbc4454a875f2aa65add382,
         type: 3}
