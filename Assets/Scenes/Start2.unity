@@ -1196,6 +1196,16 @@ PrefabInstance:
       propertyPath: inventoryEvents.Array.data[2].OnAdd.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 598917106}
+    - target: {fileID: 6083945453813225673, guid: fad2f6771148e426ca12d523b030912f,
+        type: 3}
+      propertyPath: inventoryEvents.Array.data[0].OnAdd.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeKeyUI
+      objectReference: {fileID: 0}
+    - target: {fileID: 6083945453813225673, guid: fad2f6771148e426ca12d523b030912f,
+        type: 3}
+      propertyPath: inventoryEvents.Array.data[0].OnAdd.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PerformInteraction
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fad2f6771148e426ca12d523b030912f, type: 3}
 --- !u!114 &782913515 stripped
@@ -27061,6 +27071,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PressurePadBlue
       objectReference: {fileID: 0}
+    - target: {fileID: 587228342053743352, guid: 4e1b373c1bbc4454a875f2aa65add382,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 588887067537209594, guid: 4e1b373c1bbc4454a875f2aa65add382,
         type: 3}
       propertyPath: m_RootOrder
@@ -27319,9 +27334,21 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1824072935, guid: 4fef800ab223643428d17e12d18eb49d, type: 3}
+      propertyPath: targets.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1824072935, guid: 4fef800ab223643428d17e12d18eb49d, type: 3}
       propertyPath: targets.Array.data[0]
       value: 
       objectReference: {fileID: 2110018084}
+    - target: {fileID: 1824072935, guid: 4fef800ab223643428d17e12d18eb49d, type: 3}
+      propertyPath: targets.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1824072935, guid: 4fef800ab223643428d17e12d18eb49d, type: 3}
+      propertyPath: targets.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5525126042732391861, guid: 4fef800ab223643428d17e12d18eb49d,
         type: 3}
       propertyPath: m_RootOrder
@@ -27661,8 +27688,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6995806996893868066, guid: 67f9f61b4a0264ca2b988c615a437cd9,
         type: 3}
+      propertyPath: keyNames.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6995806996893868066, guid: 67f9f61b4a0264ca2b988c615a437cd9,
+        type: 3}
       propertyPath: keyNames.Array.data[3]
-      value: Key3
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6995806996893868066, guid: 67f9f61b4a0264ca2b988c615a437cd9,
         type: 3}
@@ -27690,6 +27722,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7977047876538782931, guid: 1eec852d9cbd047c4902d7631f7ed5e7,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7977047876538782931, guid: 1eec852d9cbd047c4902d7631f7ed5e7,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7977047876538782931, guid: 1eec852d9cbd047c4902d7631f7ed5e7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7977047876539097211, guid: 1eec852d9cbd047c4902d7631f7ed5e7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7977047876782605360, guid: 1eec852d9cbd047c4902d7631f7ed5e7,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2.824301
+      objectReference: {fileID: 0}
+    - target: {fileID: 7977047876782605360, guid: 1eec852d9cbd047c4902d7631f7ed5e7,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.41215062
+      objectReference: {fileID: 0}
     - target: {fileID: 7977047876782605361, guid: 1eec852d9cbd047c4902d7631f7ed5e7,
         type: 3}
       propertyPath: m_RootOrder
