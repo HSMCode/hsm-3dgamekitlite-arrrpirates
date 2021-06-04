@@ -30879,7 +30879,7 @@ PrefabInstance:
     - target: {fileID: 2988657507023851331, guid: e359069e0a0fe4243b81c111347ed0cb,
         type: 3}
       propertyPath: destinationTag
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2988657507023851331, guid: e359069e0a0fe4243b81c111347ed0cb,
         type: 3}
@@ -37667,7 +37667,7 @@ PrefabInstance:
     - target: {fileID: 1557836265493117755, guid: fad2f6771148e426ca12d523b030912f,
         type: 3}
       propertyPath: canAttackC
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1557836265493117755, guid: fad2f6771148e426ca12d523b030912f,
         type: 3}
