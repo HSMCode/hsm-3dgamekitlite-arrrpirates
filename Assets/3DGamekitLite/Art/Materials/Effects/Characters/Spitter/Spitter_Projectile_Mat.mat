@@ -96,5 +96,6 @@ Material:
     - _blendDistance: 0
     m_Colors:
     - _Color: {r: 0.70253253, g: 0.9433962, b: 0.004449993, a: 1}
-    - _EmissionColor: {r: 2.11648, g: 3.8499782, b: 0, a: 1}
+    - _EmissionColor: {r: 1.6327133, g: 1.9249891, b: 0, a: 1}
     - _SidesColour: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
