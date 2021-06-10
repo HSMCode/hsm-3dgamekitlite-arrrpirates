@@ -1,0 +1,154 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.1f1 (77a89f25062f) revision 7841951'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'de' Physical Memory: 16259 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Louisa/Desktop/Level D 09.06.2021/hsm-3dgamekitlite-arrrpirates-main
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64995
+Successfully changed project path to: C:/Users/Louisa/Desktop/Level D 09.06.2021/hsm-3dgamekitlite-arrrpirates-main
+C:/Users/Louisa/Desktop/Level D 09.06.2021/hsm-3dgamekitlite-arrrpirates-main
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 57.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.1f1 (77a89f25062f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Louisa/Desktop/Level D 09.06.2021/hsm-3dgamekitlite-arrrpirates-main/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon (TM) RX 480 Graphics (ID=0x67df)
+    Vendor:   
+    VRAM:     4075 MB
+    Driver:   27.20.21002.112
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001947 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 71.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.095 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000936 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.991 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2224 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.7 MB.
+System memory in use after: 106.7 MB.
+
+Unloading 136 unused Assets to reduce memory usage. Loaded Objects now: 2666.
+Total: 2.944600 ms (FindLiveObjects: 0.352600 ms CreateObjectMapping: 0.184300 ms MarkObjects: 2.162100 ms  DeleteObjects: 0.244800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/LevelD/NavMesh-Floor_Cube (2).asset
+  artifactKey: Guid(2b600abfdf6cd4340ae773fe9ab670e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LevelD/NavMesh-Floor_Cube (2).asset using Guid(2b600abfdf6cd4340ae773fe9ab670e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6978364b30dc146f9321e8789822d0a') in 0.041318 seconds
+  Import took 0.045357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Scenes/LevelD/NavMesh-Floor_Cube (1).asset
+  artifactKey: Guid(9c40b4098b157df4997a53f1a864d3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LevelD/NavMesh-Floor_Cube (1).asset using Guid(9c40b4098b157df4997a53f1a864d3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a7b3a721a50e5b2bcb8b6448ae37b10') in 0.010301 seconds
+  Import took 0.014426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Scenes/LevelD
+  artifactKey: Guid(c5ce76baae7d0124eb64ac1ddf3d952e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LevelD using Guid(c5ce76baae7d0124eb64ac1ddf3d952e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae1e9afca3d7ca23f0e350d5d4c617e') in 0.008547 seconds
+  Import took 0.013360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Scenes/LevelD/NavMesh-Floor_Cube (7).asset
+  artifactKey: Guid(a90e886e2c175f8408ae016590349d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LevelD/NavMesh-Floor_Cube (7).asset using Guid(a90e886e2c175f8408ae016590349d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d97376fed70040f49f302af57b1dd6') in 0.010016 seconds
+  Import took 0.014296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 601.516285 seconds.
+  path: Assets/Scenes/LevelD/NavMesh-Floor_Cube (1)(1).asset
+  artifactKey: Guid(508a02d97e9125443909bc0bb58495e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LevelD/NavMesh-Floor_Cube (1)(1).asset using Guid(508a02d97e9125443909bc0bb58495e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c924e13789105064f1498a9d7b6888e') in 0.011030 seconds
+  Import took 0.016148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Scenes/LevelD/NavMesh-Floor_Cube (7)(1).asset
+  artifactKey: Guid(3900a00bbd80cf241aade5768d54764d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LevelD/NavMesh-Floor_Cube (7)(1).asset using Guid(3900a00bbd80cf241aade5768d54764d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6818265125a5e7b7fb4965a0276e23') in 0.008847 seconds
+  Import took 0.013964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Scenes/LevelD/NavMesh-Floor_Cube (2)(1).asset
+  artifactKey: Guid(6ac563518584ab348897d14c303fefe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LevelD/NavMesh-Floor_Cube (2)(1).asset using Guid(6ac563518584ab348897d14c303fefe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a48aef06c61063c51d272020b858f32') in 0.008508 seconds
+  Import took 0.012920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.450403 seconds.
+  path: Assets/Scenes/LevelD/NavMesh-Floor_Cube (1)(1).asset
+  artifactKey: Guid(508a02d97e9125443909bc0bb58495e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LevelD/NavMesh-Floor_Cube (1)(1).asset using Guid(508a02d97e9125443909bc0bb58495e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be235fed43abc898889a7c6ff94595bc') in 0.003320 seconds
+  Import took 0.008248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Scenes/LevelD/NavMesh-Floor_Cube (7)(1).asset
+  artifactKey: Guid(3900a00bbd80cf241aade5768d54764d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LevelD/NavMesh-Floor_Cube (7)(1).asset using Guid(3900a00bbd80cf241aade5768d54764d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab234533ea82b8d35b8a039fe163624d') in 0.004311 seconds
+  Import took 0.008620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Scenes/LevelD/NavMesh-Floor_Cube (2)(1).asset
+  artifactKey: Guid(6ac563518584ab348897d14c303fefe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LevelD/NavMesh-Floor_Cube (2)(1).asset using Guid(6ac563518584ab348897d14c303fefe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7940b878c49e6d4179b2bfb837be47a4') in 0.003893 seconds
+  Import took 0.008915 seconds .
+
