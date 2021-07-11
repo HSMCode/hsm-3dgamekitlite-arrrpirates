@@ -2847,6 +2847,11 @@ PrefabInstance:
       propertyPath: inventoryKey
       value: Key3
       objectReference: {fileID: 0}
+    - target: {fileID: 7130401415877493381, guid: c5377693d39384ce98964546775f048f,
+        type: 3}
+      propertyPath: dataSettings.persistenceType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7130401415877493383, guid: c5377693d39384ce98964546775f048f,
         type: 3}
       propertyPath: m_RootOrder
@@ -48434,6 +48439,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: KeyItem2
       objectReference: {fileID: 0}
+    - target: {fileID: 7130401415877493381, guid: c5377693d39384ce98964546775f048f,
+        type: 3}
+      propertyPath: dataSettings.persistenceType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7130401415877493383, guid: c5377693d39384ce98964546775f048f,
         type: 3}
       propertyPath: m_RootOrder
@@ -51335,6 +51345,11 @@ PrefabInstance:
         type: 3}
       propertyPath: inventoryKey
       value: Key1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7130401415877493381, guid: c5377693d39384ce98964546775f048f,
+        type: 3}
+      propertyPath: dataSettings.persistenceType
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7130401415877493383, guid: c5377693d39384ce98964546775f048f,
         type: 3}
